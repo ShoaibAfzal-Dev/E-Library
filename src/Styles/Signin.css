@@ -1,0 +1,63 @@
+/* .Signin-page{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.singuppage{
+    margin-top: 20vh;
+}
+.Signin-page {
+    margin-top: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Signin-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Signin-page form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Signin-page input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Signin-page  button {
+    text-align: center;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Signin-page button:hover {
+    background-color: #0099CC;
+  }
+  

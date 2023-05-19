@@ -1,0 +1,281 @@
+  p > span{
+  font-size: large;
+  color: #003366;
+  }
+ .card-rating{
+  display: flex;
+  justify-content: center;
+ }
+ 
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .search input {
+    padding: 10px;
+    width: 60vw;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    height: 43px;
+    background-color: #0099CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .books-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .single-book-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .single-book-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-data {
+    margin-top: 20px;
+  }
+  
+  .card-title span,
+  .card-author span {
+    font-weight: bold;
+  }
+  
+  .card-rating {
+    margin-top: 10px;
+  }
+  
+  .card-date {
+    margin-top: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .single-book {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .single-book img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .single-book p {
+    margin-top: 10px;
+  }
+  
+  .single-book p:first-child {
+    font-weight: bold;
+  }
+
+
+
+  .group-link {
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.633);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .group-link p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .group-link img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  
+  .error{
+    color: red;
+    font-size: xx-large;
+    padding-top: 200px;
+  }
+
+
+  .book-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .publication-date {
+    font-style: italic;
+  }
+  
+  .publisher {
+    margin-top: 10px;
+  }
+  
+  .url {
+    
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .similar-books {
+    margin-top: 20px;
+  }
+  
+  .similar-books p {
+    font-weight: bold;
+  }
+  
+  .similar-book-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .similar-book {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .similar-book-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .similar-book img {
+    width: 150px;
+    height:100px;
+    margin-top: 10px;
+  }
+  
+  .group-container {
+   
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .group-details {
+    margin-top: 20px;
+  }
+  
+
+  .access{
+    color: red;
+  }
+  .access,
+  .title,
+  .location,
+  .last-activity {
+    margin-top: 10px;
+  }
+  
+  .im {
+    border-radius: 10px;
+    width: 150px;
+   height: 100px;
+    margin-top: 10px;
+  }
+  
+  .moderator {
+    margin-top: 20px;
+  }
+  
+  .users-heading {
+    margin-top: 20px;
+  }
+  
+  .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .user {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .user >p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .user> img {
+    border-radius: 10px;
+    width: 150px;
+   height: 100px;
+    margin-top: 10px;
+  }
+  

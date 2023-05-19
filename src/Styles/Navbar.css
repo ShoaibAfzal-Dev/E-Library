@@ -1,0 +1,78 @@
+.navbar{
+    width: 100%;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:  10px;
+   box-shadow: 0 9px 6px -6px #c6c6c6;
+}
+.icon img{
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+}
+.loging,.sloging{
+    display: flex;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ .loging > a  , .sloging > a{
+    background-image: linear-gradient(to right,  #003366 0%, #0099CC 100%);    
+    font-size: large;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ham,.cross{
+    display: none;
+}
+@media (max-width:740px) {
+    .ham,.cross{
+        color: #0099CC;
+        display: contents;
+    }
+     .loging a{
+        display: none;
+    }
+    .sloging{
+        border-radius: 0px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: -5px;
+    }
+    .search-input{
+        display: none;
+    }
+}
+.search-input {
+    
+    position: relative;
+    font-size: x-large;
+  }
+  
+  .search-label {
+    color: #0099CC;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .input-field {
+    cursor: pointer;
+    border: 1px solid #003366;
+    height: 50px;
+    padding-left: 40px;
+  }
+  
